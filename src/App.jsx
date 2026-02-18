@@ -29,7 +29,7 @@ function App() {
       />
 
       <Route path="/dashboard" element={<Dashboard />} />
-      <Route path="/issue" element={<IssueDetails />} />
+      <Route path="/issue/:id" element={<IssueDetails />} />
       <Route path="/ai" element={<AICopilot />} />
 
     </Routes>
