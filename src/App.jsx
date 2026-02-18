@@ -2,6 +2,10 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import Dashboard from "./pages/Dashboard";
+import IssueDetails from "./pages/IssueDetails";
+import AICopilot from "./pages/AICopilot";
+
+
 
 function App() {
   return (
@@ -25,6 +29,9 @@ function App() {
       />
 
       <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="/issue" element={<IssueDetails />} />
+      <Route path="/ai" element={<AICopilot />} />
+
     </Routes>
   );
 }
