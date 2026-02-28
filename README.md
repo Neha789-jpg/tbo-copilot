@@ -1,16 +1,49 @@
-# React + Vite
+🚀 TBO AI Copilot – Hotel Disruption Management System
+🔹 Problem
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hotel booking disruptions such as overbooking, price increases, and cancellations create high-pressure situations for travel agents. Resolving these manually requires searching inventory, evaluating alternatives, and communicating with travelers — leading to delays and inefficiencies.
 
-Currently, two official plugins are available:
+🔹 Solution
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Our AI Copilot assists travel agents by:
 
-## React Compiler
+Detecting booking disruptions
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Fetching live hotel availability via API
 
-## Expanding the ESLint configuration
+Generating context-aware recommendations
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Providing impact explanation and confidence scoring
+
+Creating ready-to-send traveler communication
+
+🔹 Key Features
+
+Secure Login Interface
+
+Operational Dashboard with flagged disruptions
+
+Context-aware AI recommendation engine
+
+API-integrated inventory analysis
+
+Confidence scoring for decisions
+
+One-click traveler messaging
+
+🔹 Tech Stack
+
+Frontend: React + Vite + Tailwind
+Backend: Node.js + Express
+API Integration: TBO Hotel API
+Version Control: Git + GitHub
+
+🔹 Business Impact
+
+Faster disruption resolution
+
+Reduced manual workload
+
+Financial impact awareness
+
+Structured AI-assisted decision support
